@@ -1,11 +1,11 @@
 # My Code here....
 def map_to_negativize(source_array)
   new_arr = []
-  i = 0
-  while i < source_array.length
+  count = 0
+  while count < source_array.length
     # pushing into the new arr each ele multiplied by -1 from the old arr.
-    new_arr.push( source_array[i] * -1 )
-    i += 1
+    new_arr.push( source_array[count] * -1 )
+    count += 1
   end
   return new_arr
 end
