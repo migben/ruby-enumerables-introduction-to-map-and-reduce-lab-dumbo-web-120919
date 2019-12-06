@@ -12,10 +12,10 @@ end
 
 def map_to_no_change(source_array)
   new_arr = []
-  i = 0
-  while i < source_array.length
-    new_arr.push( source_array[i] )
-    i += 1
+  count = 0
+  while count < source_array.length
+    new_arr.push( source_array[count] )
+    count += 1
   end
   return new_arr
 end
