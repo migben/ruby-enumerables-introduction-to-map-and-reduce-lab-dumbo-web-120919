@@ -37,7 +37,7 @@ def reduce_to_total(source_array, starting_point=0)
     new_arr += source_array[i]
     i += 1
   end
-  return new
+  return new_arr
 end
 
 def reduce_to_all_true(source_array)
