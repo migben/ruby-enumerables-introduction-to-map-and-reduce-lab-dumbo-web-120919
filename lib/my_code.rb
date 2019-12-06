@@ -21,13 +21,13 @@ def map_to_double(source_array)
 end
 
 def map_to_square(source_array)
-  new = []
+  new_arr = []
   i = 0
   while i < source_array.length
-    new.push( source_array[i] * source_array[i] )
+    new_arr.push( source_array[i] * source_array[i] )
     i += 1
   end
-  return new
+  return new_arr
 end
 
 def reduce_to_total(source_array, starting_point=0)
